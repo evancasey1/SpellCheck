@@ -47,10 +47,11 @@ public class SpellChecker {
               ch++;
             }
           }
-          if (!found)
+          if (!found) {
             System.out.println("Not found.");
+	  }
           System.out.println();
-		    }
+	}
       }
  
 
